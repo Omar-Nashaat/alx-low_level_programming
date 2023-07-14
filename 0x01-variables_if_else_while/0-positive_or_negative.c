@@ -9,7 +9,7 @@
  *
  * Return: Always 0 (Success)
  *
-*/
+*/i
 
 int main(void)
 {
@@ -20,8 +20,8 @@ int main(void)
 	if (n > 0)
 		printf("%i is positive\n", n);
 	else if (n == 0)
-		prinf("%i is zero\n", n);
+		printf("%i is zero\n", n);
 	else
-		prinf("%i is negative\n", n);
+		printf("%i is negative\n", n);
 	return (0);
 }
