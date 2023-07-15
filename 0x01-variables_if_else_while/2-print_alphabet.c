@@ -17,7 +17,7 @@ int main(void)
 	while (ch != end)
 	{
 	putchar(ch);
-	ch++
+	ch++;
 	}
 	return (0);
 }
