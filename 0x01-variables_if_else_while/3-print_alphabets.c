@@ -12,6 +12,9 @@ int main(void)
 {
 	char start = 'a';
 	char end = 'z';
+	char second = 'A';
+	char third = 'Z';
+	char chen = second;
 	char ch = start;
 
 	while (ch <= end)
@@ -19,14 +22,10 @@ int main(void)
 	putchar(ch);
 	ch++;
 	}
-	char second = 'A';
-	char third = 'Z';
-	char chen = second;
-
 	while (chen <= third)
 	{
 	putchar(chen);
-	chen++
+	chen++;
 	}
 	putchar('\n');
 	return (0);
