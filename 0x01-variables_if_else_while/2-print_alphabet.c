@@ -17,8 +17,8 @@ int main(void)
 	while (ch <= end)
 	{
 	putchar(ch);
-	printf("\n");
 	ch++;
+        printf("\n");
 	}
 	return (0);
 }
