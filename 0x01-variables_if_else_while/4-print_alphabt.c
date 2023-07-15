@@ -20,6 +20,7 @@ char ch = start;
 	if (ch != 'q' && ch != 'e')
 	putchar(ch);
 	ch++;
+	putchar('\n');
 	}
 	return (0);
 }
