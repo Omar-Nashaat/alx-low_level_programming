@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main -entry point
+ * main - entry point
  *
- * Description: A C program that prints alpha in small and capital
+ * Description: A C program prints the alpha in lower case
  *
  * Return: Always 0 (Success)
 */
@@ -11,7 +11,7 @@
 int main(void)
 {
 	char start = 'a';
-	char end = 'e';
+	char end = 'z';
 	char ch = start;
 
 	while (ch <= end)
@@ -19,16 +19,15 @@ int main(void)
 	putchar(ch);
 	ch++;
 	}
-	char start2 = 'A';
-	char end2 = 'Z';
-	char ch2 = start2;
+	char second = 'A';
+	char third = 'Z';
+	char chen = second;
 
-	while (ch2 <= end2)
+	while (chen <= third)
 	{
-	putchar(ch2);
-	ch2++;
+	putchar(chen);
+	chen++
 	}
-	putchar("\n");
-
-return (0);
+	putchar('\n');
+	return (0);
 }
