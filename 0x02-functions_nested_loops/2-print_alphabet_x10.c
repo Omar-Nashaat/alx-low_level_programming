@@ -1,14 +1,13 @@
 #include"main.h"
 
 /**
- * prints 10 times the alphabet, in lowercase, followed by a new line
- *	using _putchar
+ * print_alphabet_x10 - function that will print the alphabet 10 times
+ *
 */
 
 void print_alphabet_x10(void)
 {
-	int ch;
-	int chh;
+	int ch,chh;
 
 	for (ch = 0; ch <= 9; ch++)
 	{
