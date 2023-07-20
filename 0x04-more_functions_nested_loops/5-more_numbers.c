@@ -9,7 +9,7 @@
 
 void more_numbers(void)
 {
-	int i,k,num;
+	int i, k, num;
 
 	for (i = 0; i <= 10; i++)
 	{
@@ -24,4 +24,4 @@ void more_numbers(void)
 		_putchar(num + 48);
 		}
 	}
-}	
+}
