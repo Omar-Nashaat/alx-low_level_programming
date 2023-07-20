@@ -6,12 +6,12 @@
  * @a: first input to function
  * @b: second input to function
  *
- * Return: the multiplication of the two inputs
+ * Return: the result
 */
 
 int mul(int a, int b)
 {
-	result = a * b;
+	int result = a * b;
 
 	return (result);
 }
