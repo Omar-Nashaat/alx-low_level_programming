@@ -16,12 +16,13 @@ void more_numbers(void)
 		for (k = 0; k <= 14; k++)
 		{
 			num = k;
+
 			if (k > 9)
 			{
-			_putchar (1 + 48);
-			num = k % 10;
+				_putchar (1 + 48);
+				num = k % 10;
 			}
-		_putchar(num + 48);
+			_putchar(num + 48);
 		}
 	}
 }
